@@ -1,0 +1,230 @@
+:root {
+    --color-primaryKey: #5D87FF;
+    --color-ogren:#FCB322;
+    --color-red:#ff6c60;
+    --color-greenYellow:greenyellow;
+  }
+  :root{
+    --primary-colorText:#212529;
+    --primary-color: #5E50F9;
+    --primary-backgroup-color: #5E50F9;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --5s-transition: .5s ease-in-out;
+    --color-textPrimary:#666;
+    --color-red:#ff4136;
+    --color-redPink:#ff6c60;
+}
+
+.bg-red{
+    background-color: var(--bs-red) !important;
+}
+.bg-greenYellow{
+    background-color: var(--color-greenYellow) !important;
+}
+.bg-ogren{
+    background-color: var(--color-ogren) !important;
+}
+.bg-warning{
+    background-color: var(--bs-warning) !important;
+}
+.bg-blue{
+    background-color: var(--bs-blue) !important;
+}
+.c-primaryKey{
+    color: var(--color-primaryKey) !important;
+}
+.bg-primaryKey{
+    background-color: var(--color-primaryKey) !important;
+}
+.css-text-uppercase{
+    text-transform: uppercase;
+}
+.flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-box{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right:  10px;
+}
+.icon-box i{
+    font-size: 20px;
+}
+.flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex_start{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.form-input-search{
+    width: 100%;
+    height: 45px;
+    position: relative; 
+    border: 1px solid #ccc;
+    overflow: hidden;
+    /* box-shadow: 5px 5px 5px #ccc; */
+}
+.form-input-search input{
+    width: 100%;
+    height: 100%;
+    padding-left: 45px;
+    border: none;
+    outline: none;
+}
+.form-input-search .icon-search{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+select.form-select{
+    height: 45px !important;
+}
+.btn-acction-cms{
+    padding: 8px 18px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.bg-redPink{
+    background-color: var(--color-red);
+ 
+}
+.bg-yellow-green{
+    background-color: var(--color-greenYellow);
+}
+.bg-org{
+    background-color: var(--color-ogren);
+}
+.pagination{
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin: 20px auto;
+    background-color: var(--color-primaryKey);
+
+}
+.pagination li{
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    border-radius: 50%;
+}
+.pagination li.active a{
+    font-size: 18px;
+    font-weight: bold;
+}
+.pagination li a{
+    text-decoration: none;
+    color: white !important;
+}
+.card-admin{
+    color: white !important;
+    width: 100%;
+    height: 120px;
+    margin: 10px;
+    border: none;
+}
+.titel-card-admin{
+    font-size: 25px;
+}
+.form-input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color:var(--primary-colorText);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding-left: 50px;
+}
+.form-input .form-input-data{
+    width: 100% !important;
+    height: 100% !important;
+    border: none;
+    outline: none;
+}
+.react-datepicker-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.react-datepicker__input-container{
+    height: 100%;
+}
+.react-datepicker-wrapper{
+    height: 40px;
+}
+.react-datepicker-wrapper input{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.paginate-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.paginate-table li {
+    padding: 10px;
+    margin: 0 10px;
+    list-style-type: none;
+}
+.paginate-table li.selected{
+    background-color: #0d6efd;
+    color: white;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,138 @@
+:root {
+    --color-primaryKey: #5D87FF;
+    --color-ogren:#FCB322;
+    --color-red:#ff6c60;
+    --color-greenYellow:greenyellow;
+  }
+  :root{
+    --primary-colorText:#212529;
+    --primary-color: #5E50F9;
+    --primary-backgroup-color: #5E50F9;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --5s-transition: .5s ease-in-out;
+    --color-textPrimary:#666;
+    --color-red:#ff4136;
+    --color-redPink:#ff6c60;
+}
+.icon-from-home{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+.card-home{
+    padding: 25px 5px;
+    position: relative;
+    color: white !important;
+}
+.MuiBox-root{
+    z-index: 1;
+}
+.user-modal .modal-dialog{
+    max-width: 1000px;
+}
+.upload-img{
+    width: 100%;
+}
+.form-input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.form-input label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+.form-group{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-group  input{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.form-group input:focus+label,.form-group input:valid+label{
+    top: 0;
+    font-size: 12px;
+}
+.form-group  label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    transition: 0.5s ease-in-out;
+    background-color: white;
+}
+.icon-password-eye{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.mg-r-20{
+    margin-right: 20px;
+}
+.toggle-modal{
+    margin:  0 15px;
+}
+.btn-button{
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-red);
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.react-confirm-alert-overlay{
+    z-index: 10000000 !important;
+}
+.img-logo-class{
+    width: 100%;
+    object-fit: cover;
+}
+.titel-center{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--bs-blue);
+}
